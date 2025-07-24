@@ -4,8 +4,9 @@ namespace TestDemo
 {
     class Pro
     {
-        public static void Main(String[] args)
+        void demo()
         {
+
             #region
             Console.WriteLine("请输入您的姓名");
             String? nameInput = Console.ReadLine(); // 允许 null
@@ -30,3 +31,4 @@ namespace TestDemo
         }
     }
 }
+
